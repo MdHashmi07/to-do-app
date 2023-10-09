@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to-do-container {
+    background-color: gainsboro;
+} 
+
+.add-btn {
+    background-color: darkgrey;
+}
+
+.to-do-input:focus {
+    outline: none;
+}
+
+.box {
+    width: 30rem;
+    background-color: beige;
+    margin: 10px 0px;
+    font-size: 2rem;
+    display:block;
+    padding:10px 10px;
+    border:2px solid beige;
+    border-radius: 10px;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+.check-btn {
+     background-color: rgb(249, 249, 165) !important;
+     height: 3.5rem;
+    
+}
+
+.remove-element{
+    background-color: rgb(249, 249, 165) !important;
+    height: 3.5rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.to-do-preview {
+    max-height: 38rem;
+    overflow: scroll;
+}
